@@ -17,3 +17,22 @@ react-native run-ios
 ```
 
 [ref = https://facebook.github.io/react-native/docs/getting-started.html]
+
+## Project folder structure
+
+```
++ android/
++ ios/
+- .buckconfig
+- .flowconfig
+- .gitignore
+- .watchmanconfig
+- index.android.js
+- index.ios.js
+- package.json
+```
+
+`android/` and `ios/` are compiled sources
+our sources is the `index.*.js`
+note that it's no difference in code between `index.android.js`
+and `index.ios.js`, they just has a difference detail message
