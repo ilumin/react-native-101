@@ -41,4 +41,8 @@ and `index.ios.js`, they just has a difference detail message
 
 ```
 npm i babel-preset-react-native --save-dev
-``` 
+vim .babelrc 
+  {
+    "presets": ["react-native"]
+  }
+```
