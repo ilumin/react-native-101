@@ -36,3 +36,9 @@ react-native run-ios
 our sources is the `index.*.js`
 note that it's no difference in code between `index.android.js`
 and `index.ios.js`, they just has a difference detail message
+
+## Install Babel for ES6 support
+
+```
+npm i babel-preset-react-native --save-dev
+``` 
